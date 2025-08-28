@@ -4,6 +4,14 @@
 
 本目录包含了Agent团队协作开发项目的核心文档，为各专业Agent提供统一的协作指南和部署流程。
 
+## 项目仓库
+
+### GitHub仓库地址
+- **Common**: [https://github.com/hbs08219/Common.git](https://github.com/hbs08219/Common.git) - 团队共享文档和配置
+- **Godot引擎**: [https://github.com/hbs08219/godot.git](https://github.com/hbs08219/godot.git) - Godot引擎源码（fork自官方）
+- **Godot-MCP**: [https://github.com/hbs08219/Godot-MCP.git](https://github.com/hbs08219/Godot-MCP.git) - MCP工具链项目
+- **FlappyBirdDemo**: [https://github.com/hbs08219/flappybirddemo.git](https://github.com/hbs08219/flappybirddemo.git) - 游戏测试项目
+
 ## 主要文档
 
 ### `agent-team-guide.md` - 团队协作开发指南 ⭐
@@ -53,4 +61,4 @@
 
 **最后更新**: 2025-01-14  
 **维护人员**: 团队项目经理Agent  
-**文档状态**: 已合并，待审核
+**文档状态**: 已更新GitHub仓库信息，待审核

@@ -17,6 +17,14 @@
 Claude AI ↔ MCP Server ↔ Godot Editor ↔ Godot Engine ↔ Game Projects
 ```
 
+## 项目仓库
+
+### GitHub仓库地址
+- **Common**: [https://github.com/hbs08219/Common.git](https://github.com/hbs08219/Common.git) - 团队共享文档和配置
+- **Godot引擎**: [https://github.com/hbs08219/godot.git](https://github.com/hbs08219/godot.git) - Godot引擎源码（fork自官方）
+- **Godot-MCP**: [https://github.com/hbs08219/Godot-MCP.git](https://github.com/hbs08219/Godot-MCP.git) - MCP工具链项目
+- **FlappyBirdDemo**: [https://github.com/hbs08219/flappybirddemo.git](https://github.com/hbs08219/flappybirddemo.git) - 游戏测试项目
+
 ## 快速部署
 
 ### 环境要求
@@ -28,7 +36,7 @@ Claude AI ↔ MCP Server ↔ Godot Editor ↔ Godot Engine ↔ Game Projects
 
 #### 1. Godot引擎源码
 ```bash
-git clone https://github.com/godotengine/godot.git godot_source
+git clone https://github.com/hbs08219/godot.git godot_source
 cd godot_source
 git checkout 4.2-stable
 # Windows: 安装Visual Studio + C++工具包
@@ -38,7 +46,7 @@ scons -j8 platform=windows target=editor
 
 #### 2. Godot-MCP工具
 ```bash
-git clone https://github.com/ee0pdt/godot-mcp.git Godot-MCP
+git clone https://github.com/hbs08219/Godot-MCP.git Godot-MCP
 cd Godot-MCP/server
 npm install && npm run build
 ```
@@ -120,7 +128,7 @@ npm install && npm run build
 
 ---
 
-**文档版本**: 1.0  
+**文档版本**: 1.1  
 **最后更新**: 2025-01-14  
 **维护人员**: 团队项目经理Agent  
-**状态**: 已合并，待审核
+**状态**: 已更新GitHub仓库信息，待审核
